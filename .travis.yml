@@ -1,0 +1,7 @@
+language:c
+sudo:false #only for fast builds
+compiler:
+-gcc
+script:
+-gcc -o hello hello.c
+-./hello
